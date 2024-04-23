@@ -1,0 +1,25 @@
+What is a class?
+A class in Python is a blueprint for creating objects. It defines properties (attributes) and behaviors (methods) that objects of the class will have.
+What is an instance?
+An instance, also known as an object, is a specific realization of a class. It represents a single, unique occurrence of the class.
+What is encapsulation?
+Encapsulation is the bundling of data (attributes) and methods that operate on the data within a single unit (class).
+It hides the internal state of objects and restricts direct access to them from outside the class.
+What is abstraction?
+Abstraction is the process of hiding the complex implementation details and showing only the essential features of an object.
+It allows for the creation of user-defined data types in the form of classes, where users only need to know how to use the class
+without understanding its internal workings.
+What is inheritance?
+Inheritance is a mechanism in which a new class (derived class or subclass) is created from an existing class (base class or superclass),
+inheriting its attributes and methods. It promotes code reusability and allows for the extension and modification of existing classes.
+What is multiple inheritance?
+Multiple inheritance is a feature in some object-oriented programming languages, including Python, where a class can inherit attributes and methods
+from more than one base class. This allows for the creation of complex class hierarchies but can lead to ambiguity if the same method or attribute
+is defined in multiple base classes.
+What is polymorphism?
+Polymorphism is the ability of objects of different classes to be treated as objects of a common superclass. It allows methods to behave differently
+based on the object they are called on, facilitating code flexibility and extensibility.
+What is method resolution order or MRO?
+Method Resolution Order (MRO) is the order in which a programming language searches for methods and attributes in a class hierarchy.
+In Python, the MRO is determined using the C3 linearization algorithm, and it defines the sequence in which base classes are searched
+when a method or attribute is accessed from a derived class.
